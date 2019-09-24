@@ -13,7 +13,12 @@ my fair share of that in [Cracking the Coding Interview](https://www.amazon.co.u
 ### Lesson 2 - List-Based Collections
 Excercises asked to make classes that represent data structures: linked lists,
 stacks and queues. Got everything right, but for a more elegant solution I need
-to remember that Python lists have pop() built in.
+to remember that Python lists have `pop()` built in.
 
 ### Lesson 3 - Searching and Sorting
+Binary search, recursion, bubble sort (naive approach), merge sort (divide and
+conquer), quick sort (pivot). Implementing quick sort took some time, but was
+definitely rewarding. I need to remember array slicing inclusive/non-inclusive
+rules better, so that I don't need to open an extra document and try it out every
+time.
 
