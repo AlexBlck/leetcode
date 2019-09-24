@@ -22,3 +22,7 @@ definitely rewarding. I need to remember array slicing inclusive/non-inclusive
 rules better, so that I don't need to open an extra document and try it out every
 time.
 
+### Leetcode 905: Sort Array by Parity
+First solution turned out to be the fastest. Then tried to be clever and do an
+in-place version as well. A bit slower, but better space complexity. Using `sort()`
+with a lambda function solves this problem in one line.
