@@ -46,7 +46,16 @@ All I had to do is create a list of strings and sort them alphabetically. But it
 was still nice to make use of what I learned in Leetcode 905.
 
 ## Leetcode Problems
-### 905: Sort Array by Parity
+In the description of every problem I am trying to outline one thing, knowledge
+of which would have made the solution easier. Problems within each difficulty
+level are listed in chronological order.
+### Easy
+#### 905: [Sort Array by Parity](https://leetcode.com/problems/sort-array-by-parity/<Paste>)
 First solution turned out to be the fastest. Then tried to be clever and do an
 in-place version as well. A bit slower, but better space complexity. Using `sort()`
 with a lambda function solves this problem in one line.
+#### 811: [Subdomain Visit Count](https://leetcode.com/problems/subdomain-visit-count/)
+By serendipity, I started this problem right after I went through dictionaries
+in a Udacity course. Proposed solution uses `collections.Counter()`. I was not
+aware of the existance of it, so my solution basically reinvents `Counter`'s
+functionality. Otherwise, it's pretty similar.
