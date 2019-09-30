@@ -71,3 +71,12 @@ By serendipity, I started this problem right after I went through dictionaries
 in a Udacity course. Proposed solution uses `collections.Counter()`. I was not
 aware of the existance of it, so my solution basically reinvents `Counter`'s
 functionality. Otherwise, it's pretty similar.
+#### 888: [Fair Candy Swap (30.09.2019)](https://leetcode.com/problems/fair-candy-swap/)
+My first brute force solution had a runtime of [2872ms](https://leetcode.com/submissions/detail/265615443/), while the median was around
+425ms. My second attempt got me to [1352ms](https://leetcode.com/submissions/detail/265616527/). At this point I decided to bring out
+the big guns and took a pen and some paper. Also, I looked up the best way to get
+rid of duplicates in a list on [StackOverflow](https://stackoverflow.com/questions/7961363/removing-duplicates-in-lists). This time I achieved [780ms](https://leetcode.com/submissions/detail/265617544/). Today I
+learned that even if the code looks obvious, it might be a good idea to read
+a description the author of an answer has given. I simply copied tho whole
+`list(set(A))`. Just by removing the `list` cast I cut my runtime to an acceptable
+[420ms](https://leetcode.com/submissions/detail/265618845/).
