@@ -61,7 +61,7 @@ intended) than the previous topics.
 In the description of every problem I am trying to outline one thing, knowledge
 of which would have made the solution easier. Problems within each difficulty
 level are listed in chronological order.
-### Easy
+### Easy 
 #### 905: [Sort Array by Parity (24.09.2019)](https://leetcode.com/problems/sort-array-by-parity/)
 First solution turned out to be the fastest. Then tried to be clever and do an
 in-place version as well. A bit slower, but better space complexity. Using `sort()`
@@ -80,3 +80,26 @@ learned that even if the code looks obvious, it might be a good idea to read
 a description the author of an answer has given. I simply copied tho whole
 `list(set(A))`. Just by removing the `list` cast I cut my runtime to an acceptable
 [420ms](https://leetcode.com/submissions/detail/265618845/).
+#### 167: [Two Sum II - Input array is sorted (30.09.2019)](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
+My solution is fairly fast, but I think it can be made faster by removing numbers
+that are already higher than target sum in a more clever manner than a linear search that is happening right now. I will definitely make another attempt.
+#### 7: [Reverse Integer (30.09.2019)](https://leetcode.com/problems/reverse-integer/)
+This problem would have definitely been more difficult in something like C++,
+but with Python overflow isn't an issue.
+#### 970: [Powerful Integers (30.09.2019)](https://leetcode.com/problems/powerful-integers/)
+The most complex 'easy' problem I've seen so far. It was very satisfying to see
+a gradual improvement in runtime from 648ms to 32ms as I tweaked my solution.
+After implementing a brute force solution that always checks all the powers up to
+19, I added a way to calculate an upper bound on power needed for a particular case.
+This resulted in a runtime of 32ms, which beats 95% of submissions. Later, I tried to combine the solution given on the website with mine. And when I say 'combine', I mean
+that instead of
+```python
+for i, j in itertools.product(range(max_power), range(max_power)):
+```
+that I had before, I just used
+```python
+for i in range(max_power):
+    for j in range(max_power):
+```
+Apparently it's a bit faster. My runtime reduced to 28ms, which beat 99.54% of submissions. Although it is worth noting that runtime of the same code can differ quite a bit
+from submission to submission, so I wouldn't mark is as an amazing achievement.
