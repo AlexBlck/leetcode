@@ -57,6 +57,11 @@ hashing. I will definitely do a bunch of problems on hashmaps in the nearest fut
 ### Lesson 5 - Trees
 It looks like trees in this course are described in much more depth (no pun
 intended) than the previous topics.
+##### 08.10.2019:
+Was sick for a week, but finally finished trees. Again, this Udacity course is a good
+introduction, but I definitely need more practice. Many of leetcode problems require
+binary trees, so getting said practice shouldn't be a problem.
+
 ## Leetcode Problems
 In the description of every problem I am trying to outline one thing, knowledge
 of which would have made the solution easier. Problems within each difficulty
