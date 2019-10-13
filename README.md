@@ -113,6 +113,6 @@ My solution is really slow and I feel like I need to make aother attempt at this
 #### 628: [Maximum Product of Three Numbers (07.10.2019)](https://leetcode.com/problems/maximum-product-of-three-numbers/)
 I enjoyed this problem a lot. My solution seems to be on the stronger side. I need
 to look up the time complexity of Python's built in `sort()`.
-#### 35: [Search Insert Position (08.10.2019)]
+#### 35: [Search Insert Position (08.10.2019)](https://leetcode.com/problems/search-insert-position/)
 Here I managed to get to top 97% runtime. Coding with a cold is definitely not
 optimal though. Looking at my code a couple of days later I feel it's too messy.
